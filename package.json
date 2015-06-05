@@ -4,8 +4,8 @@
   "description": "Fills out forms to sign up user or create apps and get API tokens.",
   "main": "index.js",
   "scripts": {
-    "slacknewbot" : "casperjs slacknewbot.js",
-    "signup": "casperjs node_modules/$1/lib/signup/botsignup.js",
+    "slacknewbot": "casperjs slacknewbot.js",
+    "signup": "casperjs signup.js",
     "test": "echo \"Eror: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/musepm/signupbot",
   "dependencies": {
     "casperjs": "^1.1.0-beta3",
+    "musepm-credentials": "^1.0.5",
     "phantomjs": "^1.9.17"
   }
 }

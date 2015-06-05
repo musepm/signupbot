@@ -1,6 +1,6 @@
 {
   "name": "musepm-signupbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fills out forms to sign up user or create apps and get API tokens.",
   "main": "index.js",
   "scripts": {

@@ -6,6 +6,7 @@
   "scripts": {
     "slacknewbot": "casperjs slacknewbot.js",
     "signup": "casperjs signup.js",
+    "newapp": "casperjs $1 $2 $3 $4 $5 $6 $7",
     "test": "echo \"Eror: no test specified\" && exit 1"
   },
   "repository": {
